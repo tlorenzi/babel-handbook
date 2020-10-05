@@ -40,43 +40,16 @@
 
 # Babel is a generic multi-purpose compiler for JavaScript. Using Babel you can use (and create) the next generation of JavaScript, as well as the next generation of JavaScript tooling.
 
-Babel will allow you to use many of the new JS features before browsers implement them.
+Babel will allow you to use many of the new JS features before browsers implement them by transpiling.
 
-Babel does this by compiling down JavaScript code written with the latest
-standards into a version that will work everywhere today. This process is known
-as source-to-source compiling, also known as transpiling.
+` Transpiling:` compiling JS written with the latest standards (eg. ES6) into a version that will work everywhere. 
 
-For example, Babel could transform the new ES2015 arrow function
-syntax from this:
+`extensions` allow Babel to do much more than transpile, like support for JSX. 
 
-```js
-const square = n => n * n;
-```
+everything in Babel is simply a plugin and anyone can create their own.
 
-Into the following:
-
-```js
-const square = function square(n) {
-  return n * n;
-};
-```
-
-However, Babel can do much more than this as Babel has support for syntax
-extensions such as the JSX syntax for React and Flow syntax support for static
-type checking.
-
-Further than that, everything in Babel is simply a plugin and anyone can go out
-and create their own plugins using the full power of Babel to do whatever
-they want.
-
-*Even further* than that, Babel is broken down into a number of core modules
-that anyone can use to build the next generation of JavaScript tooling.
-
-Many people do too, the ecosystem that has sprung up around Babel is massive and
-very diverse. Throughout this handbook I'll be covering both how built-in Babel
-tools work as well as some useful things from around the community.
-
-----
+Babel is broken down into a number of core modules that anyone can use to build the next generation of JavaScript tooling.
+------------------------------------------------------------------------
 
 # <a id="toc-setting-up-babel"></a>Setting up Babel
 
@@ -880,12 +853,6 @@ plugin which combined with a number of
 [React-specific transforms](https://github.com/gaearon/babel-plugin-react-transform#transforms)
 can enable things like *hot module reloading* and other debugging utilities.
 
-<!--
-### Ember
-
-> [WIP]
--->
-
 ## <a id="toc-text-editors-and-ides"></a>Text Editors and IDEs
 
 Introducing ES2015, JSX, and Flow syntax with Babel can be helpful, but if your
@@ -897,70 +864,12 @@ reason you will want to setup your text editor or IDE with a Babel plugin.
 - [Vim](https://github.com/jbgutierrez/vim-babel)
 - [WebStorm](https://babeljs.io/docs/setup/#webstorm)
 
-<!--
-# Debugging Babel
-
-> [WIP]
--->
-
 ----
 
 # <a id="toc-babel-support"></a>Babel Support
 
-Babel has a very large and quickly growing community, as we grow we want to
-ensure that people have all the resources they need to be successful. So we
-provide a number of different channels for getting support.
-
-Remember that across all of these communities we enforce a
-[Code of Conduct](https://github.com/babel/babel/blob/master/CODE_OF_CONDUCT.md).
-If you break the Code of Conduct, action will be taken. So please read it and
-be conscious of it when interacting with others.
-
-We are also looking to grow a self-supporting community, for people who stick
-around and support others. If you find someone asking a question you know the
-answer to, take a few minutes and help them out. Try your best to be kind and
-understanding when doing so.
-
-## <a id="toc-babel-forum"></a>Babel Forum
-
-[Discourse](http://www.discourse.org) has provided us with a hosted version of
-their forum software for free (and we love them for it!). If forums are your
-thing please stop by [discuss.babeljs.io](https://discuss.babeljs.io).
+## <a id="toc-babel-forum"></a>Babel Forum. -> [discuss.babeljs.io](https://discuss.babeljs.io).
 
 ## <a id="toc-babel-chat"></a>Babel Chat
 
-Everyone loves [Slack](https://slack.com). If you're looking for immediate
-support from the community then come chat with us at
-[slack.babeljs.io](https://slack.babeljs.io).
-
-<!--
-## Babel Stack Overflow
-
-> [WIP]
--->
-
-## <a id="toc-babel-issues"></a>Babel Issues
-
-Babel uses the issue tracker provided by
-[Github](http://github.com).
-
-You can see all the open and closed issues on
-[Github](https://github.com/babel/babel/issues).
-
-If you want to open a new issue:
-
-- [Search for an existing issue](https://github.com/babel/babel/issues)
-- [Create a new bug report](https://github.com/babel/babel/issues/new)
-  or [request a new feature](https://github.com/babel/babel/issues/new)
-
-### <a id="toc-creating-an-awesome-babel-bug-report"></a>Creating an awesome Babel bug report
-
-Babel issues can sometimes be very difficult to debug remotely, so we need all
-the help we can get. Spending a few more minutes crafting a really nice bug
-report can help get your problem solved significantly faster.
-
-First, try isolating your problem. It's extremely unlikely that every part of
-your setup is contributing to the problem. If your problem is a piece of input
-code, try deleting as much code as possible that still causes an issue.
-
-> [WIP]
+babel slack -> [slack.babeljs.io](https://slack.babeljs.io).
