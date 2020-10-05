@@ -53,18 +53,11 @@ Babel is broken down into a number of core modules that anyone can use to build 
 
 # <a id="toc-setting-up-babel"></a>Setting up Babel
 
-Since the JavaScript community has no single build tool, framework, platform,
-etc., Babel has official integrations for all of the major tooling. Everything
-from Gulp to Browserify, from Ember to Meteor, no matter what your setup looks
-like there is probably an official integration.
+Babel has official integrations for all of the major tooling. 
 
 For the purposes of this handbook, we're just going to cover the built-in ways
 of setting up Babel, but you can also visit the interactive
 [setup page](http://babeljs.io/docs/setup) for all of the integrations.
-
-> **Note:** This guide is going to refer to command line tools like `node` and
-> `npm`. Before continuing any further you should be comfortable with these
-> tools.
 
 ## <a id="toc-babel-cli"></a>`babel-cli`
 
@@ -865,11 +858,6 @@ reason you will want to setup your text editor or IDE with a Babel plugin.
 - [WebStorm](https://babeljs.io/docs/setup/#webstorm)
 
 ----
-
-# <a id="toc-babel-support"></a>Babel Support
-
 ## <a id="toc-babel-forum"></a>Babel Forum. -> [discuss.babeljs.io](https://discuss.babeljs.io).
-
-## <a id="toc-babel-chat"></a>Babel Chat
 
 babel slack -> [slack.babeljs.io](https://slack.babeljs.io).
