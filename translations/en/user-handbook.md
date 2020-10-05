@@ -38,7 +38,7 @@
 
 # <a id="toc-introduction"></a>Introduction
 
-# Babel is a generic multi-purpose compiler for JavaScript. Using Babel you can use (and create) the next generation of JavaScript, as well as the next generation of JavaScript tooling.
+Babel is a generic multi-purpose compiler for JavaScript. Using Babel you can use (and create) the next generation of JavaScript, as well as the next generation of JavaScript tooling.
 
 Babel will allow you to use many of the new JS features before browsers implement them by transpiling.
 
@@ -48,8 +48,7 @@ Babel will allow you to use many of the new JS features before browsers implemen
 
 everything in Babel is simply a plugin and anyone can create their own.
 
-Babel is broken down into a number of core modules that anyone can use to build the next generation of JavaScript tooling.
-------------------------------------------------------------------------
+Babel is broken down into a number of core modules that anyone can use to build the next generation of JS tooling.
 
 # <a id="toc-setting-up-babel"></a>Setting up Babel
 
