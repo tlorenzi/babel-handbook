@@ -1,15 +1,5 @@
 # Babel User Handbook
 
-Written by [Jamie Kyle](https://jamie.build/)
-
-This document covers everything you ever wanted to know about using
-[Babel](https://babeljs.io) and related tooling.
-
-[![cc-by-4.0](https://licensebuttons.net/l/by/4.0/80x15.png)](http://creativecommons.org/licenses/by/4.0/)
-
-This handbook is available in other languages, see the [README](/README.md) for
-a complete list.
-
 # Table of Contents
 
 - [Introduction](#toc-introduction)
@@ -48,13 +38,9 @@ a complete list.
 
 # <a id="toc-introduction"></a>Introduction
 
-Babel is a generic multi-purpose compiler for JavaScript. Using Babel you can
-use (and create) the next generation of JavaScript, as well as the next
-generation of JavaScript tooling.
+# Babel is a generic multi-purpose compiler for JavaScript. Using Babel you can use (and create) the next generation of JavaScript, as well as the next generation of JavaScript tooling.
 
-JavaScript as a language is constantly evolving, with new specs and proposals
-coming out with new features all the time. Using Babel will allow you to use
-many of these features years before they are available everywhere.
+Babel will allow you to use many of the new JS features before browsers implement them.
 
 Babel does this by compiling down JavaScript code written with the latest
 standards into a version that will work everywhere today. This process is known
